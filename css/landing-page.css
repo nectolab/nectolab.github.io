@@ -32,11 +32,21 @@ h6 {
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     text-align: center;
     color: #f8f8f8;
-    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
+    background: url(../img/antenna-sm.png) no-repeat center center;
     background-size: cover;
+}
+
+
+.layer {
+    background-color: rgba(63, 78, 191, 0.7);
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .intro-message {
@@ -93,11 +103,12 @@ h6 {
 }
 
 .content-section-a {
-
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content-section-b {
-
+  padding-bottom: 50px;
 }
 
 .section-heading {
@@ -344,6 +355,13 @@ section h1 {
 
 .section-heading-spacer-b {
   margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+.section-heading-spacer-a {
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
