@@ -376,4 +376,9 @@ section h1 {
 .bottom-padding-large {
   padding-bottom: 50px;
 }
+
+.coverage-map-container {
+  background: url(../img/antenna-sm.png) no-repeat center center;
+  background-size: cover;
+}
 /* -- end of custom css -- */
