@@ -102,6 +102,14 @@ h6 {
     letter-spacing: 2px;
 }
 
+.content-section-map {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.content-section-price {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .content-section-a {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -350,6 +358,12 @@ section h1 {
 .light-blue-background{
   background-color: #6495ed;
 }
+.light-red-background {
+  background-color: #ff006e;
+}
+.white-background {
+  background-color: #ffffff;
+}
 
 .section-heading-spacer-b {
   margin-top: 80px;
@@ -365,6 +379,12 @@ section h1 {
   width: 200px;
   border-top: 3px solid #e7e7e7;
 }
+.section-heading-spacer-coverage {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
 
 .text-align-center {
   text-align: center; !important
@@ -377,8 +397,30 @@ section h1 {
   padding-bottom: 50px;
 }
 
+.display-flex {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.coverage-container{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.coverag-info-block {
+  padding-top: 50px;
+  height:200px;
+  width: 100%;
+}
 .coverage-map-container {
-  background: url(../img/antenna-sm.png) no-repeat center center;
+  height:350px;
+  width: 100%;
+  background: url(../img/coverage-background-banner.png) no-repeat center center;
   background-size: cover;
+}
+
+.price-font-size {
+  font-size: 75px
 }
 /* -- end of custom css -- */
