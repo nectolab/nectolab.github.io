@@ -423,4 +423,12 @@ section h1 {
 .price-font-size {
   font-size: 75px
 }
+
+.phone-size {
+  font-size: 25px !important;
+}
+
+.contact-font {
+  font-size: 20px;
+}
 /* -- end of custom css -- */
