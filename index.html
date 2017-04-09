@@ -11,6 +11,24 @@
 
     <title>necto Inc. - A mission driven internet provider</title>
 
+    <script>
+      window['_fs_debug'] = false;
+      window['_fs_host'] = 'www.fullstory.com';
+      window['_fs_org'] = '402AS';
+      window['_fs_namespace'] = 'FS';
+      (function(m,n,e,t,l,o,g,y){
+          if (e in m && m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); return;}
+          g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+          o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+          y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+          g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+          g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+          g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+          d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+          ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+      })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -75,7 +93,7 @@
                         <h1 class='text-shadow-white text-color-white '>
                           <span class='large-letter-n'>n</span>ecto Inc.
                         </h1>
-                        <h3 class='text-shadow-white text-color-white'>A mission driven internet provider</h3>
+                        <h3 class='text-shadow-white text-color-white'>Your neighborhood internet provider</h3>
                         <hr class="intro-divider">
                         <h3 class='text-shadow-white text-color-white'>Bringing fast and affordable internet to everyone</h3>
 
@@ -195,6 +213,28 @@
     </div>
     <!-- /.content-section-a -->
 
+    <!-- contnet section privacy -->
+    <div class="content-section-a dark-blue-background">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12 text-align-center">
+
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading text-color-white">Privacy</h2>
+
+                    <hr class="section-heading-spacer-a">
+
+                    <p class="lead text-color-white">We will never sell your data, ever! </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-privacy -->
+
     <div class="content-section-b light-orange-background">
 
         <div class="container">
@@ -281,18 +321,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline contact-font">
-                        <!-- <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li> -->
-                        <!-- <li class="footer-menu-divider">&sdot;</li> -->
+
                         <li>
                           <a href="tel:650-488-1065"> 1 (650) 488-1065 </a>
                         </li>

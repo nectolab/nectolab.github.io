@@ -364,6 +364,9 @@ section h1 {
 .white-background {
   background-color: #ffffff;
 }
+.dark-blue-background {
+  background-color: #545eab;
+}
 
 .section-heading-spacer-b {
   margin-top: 80px;
