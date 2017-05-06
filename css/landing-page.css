@@ -439,7 +439,9 @@ section h1 {
   font-size: 25px;
   font-weight: bold;
 }
+
 /* mail chimp begin*/
+
 #mc_embed_signup{
   /*background:#fff;*/
   clear:left;
@@ -478,6 +480,7 @@ section h1 {
   color: black;
   text-align: center;
 }
+
 /* mail chimp end */
 
 /* -- end of custom css -- */
