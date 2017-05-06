@@ -439,4 +439,45 @@ section h1 {
   font-size: 25px;
   font-weight: bold;
 }
+/* mail chimp begin*/
+#mc_embed_signup{
+  /*background:#fff;*/
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  color
+  width:100%;
+
+}
+
+#mc-embedded-subscribe {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff1493;
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  padding: 10px 30px;
+  margin: 0;
+  height: 55px;
+  border-radius: 50px;
+  box-shadow: none;
+  background-image: none;
+  border: none
+}
+
+#mce-EMAIL {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  border-width: 0px;
+  padding-left: 10px;
+  color: black;
+  text-align: center;
+}
+/* mail chimp end */
+
 /* -- end of custom css -- */
